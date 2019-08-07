@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "jsx": "react",
+        "module": "es2015",
+        "target": "es2015",
+        "moduleResolution": "node",
+        "lib": [
+            "es2018",
+            "dom"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "sourceMap": true,
+        "types": [
+            "node",
+            "react",
+            "react-dom",
+            "react-router",
+            "react-router-dom",
+            "styled-components"
+        ]
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "useBabel": true,
+        "useCache": true,
+        "useTranspileModule": true,
+        "babelOptions": {
+            "babelrc": true
+        },
+        "babelCore": "@babel/core"
+    },
+    "include": [
+        "src/**/*",
+        "./index.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
